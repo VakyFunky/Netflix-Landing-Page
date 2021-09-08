@@ -145,11 +145,24 @@ img{
 }
 
 /* ---tabs inner --- */
+
 .tab-content{
     padding: 10vh 0;
     background: black;
     color: white;
 }
+
+/* hide content initially */
+#tab-1-content, 
+#tab-2-content, 
+#tab-3-content {
+    display: none;
+}
+.show{
+    display: block !important;
+}
+
+
 
 #tab-1-content .tab-1-content-inner {
     display: grid;
